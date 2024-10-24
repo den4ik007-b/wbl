@@ -1,0 +1,11 @@
+x = float(input("Введите переменную x   "))
+y = float(input("Введите переменную y   "))
+import math
+p = math.pow(math.fabs(x), 1./3)
+a = math.pow(y, p)
+b = math.pow(math.cos(y), 3)
+c = math.fabs(x-y)
+d = 1 + math.pow(math.sin(x), 2)
+r = math.pow(math.exp, c)
+s = a+b*(c*d/r)
+print("Результат: ", s)
